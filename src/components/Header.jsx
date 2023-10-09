@@ -82,6 +82,7 @@ const CloseWrapper = styled.div`
 const Header = (props) => {
   const cars = useSelector(selectCars)
   const [burgerStatus, SetBurgerStatus] = useState(false)
+  console.log(burgerStatus)
   return (
     <Container>
       <a href=''>
