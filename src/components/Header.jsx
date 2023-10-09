@@ -83,6 +83,7 @@ const Header = (props) => {
   const cars = useSelector(selectCars)
   const [burgerStatus, SetBurgerStatus] = useState(false)
   console.log(burgerStatus)
+  console.log(cars)
   return (
     <Container>
       <a href=''>
